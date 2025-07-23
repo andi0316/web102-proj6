@@ -1,0 +1,52 @@
+.layout {
+    display: flex;
+    font-family: Arial, sans-serif;
+}
+
+.header-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 95%;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 242);
+}
+
+.sidebar {
+    width: 220px;
+    background-color: #f5f5f5;
+    padding: 1rem;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sidebar h2{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.sidebar nav a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color: #c10c0c;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem 0;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 2rem;
+    overflow-y: auto; 
+}
+
+/* header styles if header inside main-content) */
+.main-content h1, .main-content h2 {
+  margin-top: 0;
+}

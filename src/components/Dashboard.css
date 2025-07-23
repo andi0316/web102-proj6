@@ -1,0 +1,114 @@
+.dash-chart-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.chart-column{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 12px;
+    
+    padding: 10px;
+    background-color:rgb(255, 255, 242);
+    margin: 20px;
+    margin-top: 40px;
+    
+    border-radius: 20px;
+    align-items: left;
+    justify-content: center;
+}
+
+.poke-list{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 900px;
+    
+    padding: 10px;
+    background-color:darkgrey;
+    margin: 20px;
+    margin-top: 40px;
+
+    border-radius: 20px;
+    align-items: left;
+    justify-content: center;
+}
+
+.poke-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 95%;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 242);
+}
+
+.poke-info {
+  flex: 1;
+  text-align: left;
+  padding-right: 20px;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.poke-image {
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.list-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    width: 95%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 242, 0.368);
+}
+
+/* .poke-image {
+    width: 70px;
+} */
+
+/* .poke-type {
+    font-size: 12px;
+} */
+
+.stat-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 96%;
+    padding: 10px;
+    background-color:darkgrey;
+    margin: 20px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.stat1, .stat2, .stat3{
+    width: 300px;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 242);
+}
+
+.search-bar {
+    margin: 0 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.type-filter {
+  margin: 0 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}

@@ -1,0 +1,22 @@
+#root {
+  /* max-width: 1980px; */
+  width: 1980px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color:blanchedalmond;
+}
+
+.layout {
+  display: flex;
+}
+.sidebar {
+  position: sticky;
+  width: 200px;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+main {
+  flex-grow: 1;
+  padding: 20px;
+}
