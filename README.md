@@ -1,23 +1,23 @@
-# Web Development Project 6 - *Name of App Here*
+# Web Development Project 6 - *Pokedata Pokemon Dashboard*
 
-Submitted by: **Your Name Here**
+Submitted by: **Andria Subhit**
 
-This web app: **insert description**
+This web app: **Is a database that allows you to search information for your favorite Pokemon with ease!**
 
-Time spent: **X** hours spent in total
+Time spent: **6** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] **Clicking on an item in the list view displays more details about it**
+- [X] **Clicking on an item in the list view displays more details about it**
   - Clicking on an item in the dashboard list navigates to a detail view for that item
   - Detail view includes extra information about the item not included in the dashboard view
   - The same sidebar is displayed in detail view as in dashboard view
   - *To ensure an accurate grade, your sidebar **must** be viewable when showing the details view in your recording.*
-- [ ] **Each detail view of an item has a direct, unique URL link to that item’s detail view page**
+- [X] **Each detail view of an item has a direct, unique URL link to that item’s detail view page**
   -  *To ensure an accurate grade, the URL/address bar of your web browser **must** be viewable in your recording.*
-- [ ] **The app includes at least two unique charts developed using the fetched data that tell an interesting story**
+- [X] **The app includes at least two unique charts developed using the fetched data that tell an interesting story**
   - At least two charts should be incorporated into the dashboard view of the site
   - Each chart should describe a different aspect of the dataset
 
@@ -38,22 +38,18 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='[http://i.imgur.com/link/to/your/gif/file.gif](https://i.imgur.com/CMkMx6L.gif)' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+https://imgur.com/a/wNZ2naW
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
-
+GIF created with ...  ShareX
 ## Notes
 
 Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2025] [Andria Subhit]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
